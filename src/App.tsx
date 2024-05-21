@@ -1,10 +1,18 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="flex h-screen">
-      <div className="m-auto border border-gray-400 p-5 rounded-md">
-        <p className="text-lg text-center">dark mode intro</p>
+    <div>
+      <Header />
+      <br />
+      <div className="p-5">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad
+          adipisci earum tempora neque. Reiciendis, molestiae? Velit officiis
+          adipisci voluptate atque natus numquam odit veniam doloremque, soluta
+          facilis ratione nobis.
+        </p>
       </div>
     </div>
   );
